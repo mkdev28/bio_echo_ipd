@@ -119,13 +119,6 @@ BioEcho therefore uses Reference Voluntary Exertion (RVE) calibration to establi
 
 The current software implementation uses a five-second calibration recording and extracts a stable middle portion of the recording to calculate the reference RMS value.
 
-The normalised muscle activity is expressed as:
-
-\[
-\%RVE(t)=
-\frac{RMS(t)}{RMS_{\text{reference}}}\times100
-\]
-
 Left and right channels are calibrated independently.
 
 This provides a participant-relative measure of muscle activity rather than relying exclusively on absolute signal amplitude.
